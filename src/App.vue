@@ -1,17 +1,16 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+  <div class="container" id="app">
+    <Worksheet />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Worksheet from './components/Worksheet.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Worksheet
   }
 }
 </script>
